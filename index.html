@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Öğrenci Kayıt Sistemi</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <h1>Öğrenci Kayıt Formu</h1>
+
+    <form>
+
+        <label>Öğrenci Numarası</label>
+
+        <input type="text" id="numara">
+
+        <span id="numaraError" class="errorMessage"></span>
+
+        <br><br>
+
+
+        <label>Ad</label>
+
+        <input type="text" id="ad">
+
+        <span id="adError" class="errorMessage"></span>
+
+        <br><br>
+
+
+        <label>Soyad</label>
+
+        <input type="text" id="soyad">
+
+        <span id="soyadError" class="errorMessage"></span>
+
+        <br><br>
+
+
+        <label>Yaş</label>
+
+        <input type="number" id="yas">
+
+        <span id="yasError" class="errorMessage"></span>
+
+        <br><br>
+
+
+        <button id="kaydet">
+            Kaydet
+        </button>
+
+    </form>
+
+
+    <hr>
+
+
+    <h2>Öğrenci Sorgula</h2>
+
+    <label>Öğrenci Numarası</label>
+
+    <input type="text" id="aramaNumara">
+
+    <button id="ara">
+        Ara
+    </button>
+
+    <p id="sonuc"></p>
+
+
+    <hr>
+
+
+    <h2>Kayıtlı Öğrenciler</h2>
+
+    <table border="1" cellpadding="10">
+
+        <thead>
+
+            <tr>
+
+                <th>Numara</th>
+
+                <th>Ad</th>
+
+                <th>Soyad</th>
+
+                <th>Yaş</th>
+
+                <th>İşlem</th>
+
+            </tr>
+
+        </thead>
+
+        <tbody id="liste">
+
+        </tbody>
+
+    </table>
+
+
+    <script src="js/helpers.js"></script>
+
+    <script src="js/validation.js"></script>
+
+    <script src="js/ui.js"></script>
+
+    <script src="js/script.js"></script>
+    <script > 
+    
+    //when user scroll console log scroll event and scroll position
+    window.addEventListener('scroll', function() {
+        console.log('Scroll event detected. Scroll position zeynep:', window.scrollY);
+    });
+    
+    </script> 
+
+</body>
+
+
+
+</html>

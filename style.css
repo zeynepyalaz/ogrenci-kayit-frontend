@@ -1,0 +1,128 @@
+body {
+
+    font-family: Arial, sans-serif;
+
+    margin: 40px;
+
+    background-color: rgb(245, 203, 203);
+
+}
+
+h1 {
+
+    color: #333;
+
+}
+
+h2 {
+
+    color: #333;
+
+}
+
+form {
+
+    background: rgb(255, 226, 226);
+
+    padding: 20px;
+
+    width: 350px;
+
+    border: 1px solid #ccc;
+
+}
+
+label {
+
+    display: block;
+
+    margin-bottom: 5px;
+
+}
+
+input {
+
+    width: 100%;
+
+    padding: 8px;
+
+    margin-bottom: 15px;
+
+    box-sizing: border-box;
+
+}
+
+button {
+
+    padding: 10px 20px;
+
+    cursor: pointer;
+
+}
+
+table {
+
+    margin-top: 30px;
+
+    border-collapse: collapse;
+
+    background: rgb(255, 226, 226);
+
+}
+
+th,
+td {
+
+    border: 1px solid black;
+
+    padding: 10px;
+
+    text-align: center;
+
+}
+
+th {
+
+    background: #FEF2A0;
+
+}
+
+td button {
+
+    padding: 5px 10px;
+
+}
+
+#sonuc {
+
+    margin-top: 20px;
+
+    padding: 10px;
+
+    background: white;
+
+    border: 1px solid #ccc;
+
+    width: 350px;
+
+}.errorMessage {
+
+    display: block;
+
+    color: red;
+
+    font-size: 14px;
+
+    margin-top: -10px;
+
+    margin-bottom: 10px;
+
+}
+
+.inputError {
+
+    border: 2px solid red;
+
+    background-color: #fff0f0;
+
+}
